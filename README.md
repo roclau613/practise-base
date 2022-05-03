@@ -61,7 +61,8 @@ Subject18：
 两个乒乓球队进行比赛，各出三人。甲队为a,b,c三人，乙队为x,y,z三人。已抽签决定比赛名单。有人向队员打听比赛的名单。a说他不和x比，c说他不和x,z比，请编程序找出三队赛手的名单。
 
 Subject19：
-打印出如下图案（菱形）。
+打印出如下图案（菱形）
+
 ![image](https://user-images.githubusercontent.com/102653448/166565973-1b682cc6-8fad-4ae2-855d-6671d25cfa92.png)
 
 Subject20：

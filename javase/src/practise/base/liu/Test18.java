@@ -1,11 +1,27 @@
 package practise.base.liu;
 /*两个乒乓球队进行比赛，各出三人。甲队为a,b,c三人，乙队为x,y,z三人。已抽签决定比赛名单。
-有人向队员打听比赛的名单。a说他不和x比，c说他不和x,z比，请编程序找出三队赛手的名单。*/
+有人向队员打听比赛的名单。a说他不和x比，c说他不和x,z比，请编程序找出三队赛手的名单。
+c  vs  y
+a  vs  z
+b  vs  x
+*/
 public class Test18 {
     public static void main(String[] args) {
 
-    }
-    public static void md(){
+        String [] jia={"a","b","c"};
+        String [] yi={"x","y","z"};
+        for (int i = 0; i < jia.length; i++) {
+            for (int j = 0; j <yi.length ; j++) {
+                if (jia[i].equals("c") && (yi[j].equals("x") || yi[j].equals("z"))) {
+                    continue;
+                }
+                if (jia[i].equals("a") && yi[j].equals("x")){
+                    continue;
+                }
 
+                System.out.println(jia[i] + " vs " + yi[j]);
+            }
+        }
     }
+
 }
